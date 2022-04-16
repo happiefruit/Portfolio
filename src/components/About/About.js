@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Applications from "./Applications";
+import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
@@ -22,7 +22,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I Am</strong>
+              Know Who <strong className="purple">I'M</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -41,13 +41,11 @@ function About() {
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Tool</strong> I use
+          <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
-        <h1 className="project-heading">
-          <strong className="purple">Applications</strong> I automate
-        </h1>
-        <Applications />
+
+        <Github />
       </Container>
     </Container>
   );
