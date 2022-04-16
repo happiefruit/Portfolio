@@ -15,9 +15,9 @@ function AboutCard() {
             <br />
             Apart from coding, these are some other activities that I love doing!
           </p>
-          <ul>
+          <ol>
             <li className="about-activity">
-              <ImPointRight /> Completing Steam game achievements
+              <ImPointRight /> Completing Steam Games achievements
             </li>
             <li className="about-activity">
               <ImPointRight /> Basketball
@@ -25,10 +25,13 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Rock-climbing
             </li>
-          </ul>
+            <li className="about-activity">
+              <ImPointRight /> Animal Voluntary Work
+            </li>
+          </ol>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Somehow my brain becomes more hardworking so that I could afford to be lazy."{" "}
+            "My brain's working hard so that I could afford to be lazy."{" "}
           </p>
           <footer className="blockquote-footer">Michael</footer>
         </blockquote>

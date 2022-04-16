@@ -2,6 +2,7 @@ import React from "react";
 import oracleLogo from "../../Assets/Oracle.png";
 import salesforceLogo from "../../Assets/Salesforce.png";
 import { Col, Row } from "react-bootstrap";
+import sabrelogo from "../../Assets/sabre-logo.png";
 import {
 	SiSap,
 	SiMicrosoftword,
@@ -52,6 +53,15 @@ function Toolstack() {
                 style={{ maxHeight: "100px" }}
               />
         </Col>
+		
+				<Col xs={4} md={2} className="tech-icons">
+         <img
+                src={sabrelogo}
+                alt="sabre logo"
+                style={{ maxHeight: "100px" }}
+              />
+        </Col>
+		
     </Row>
   );
 }
