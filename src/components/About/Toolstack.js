@@ -1,4 +1,5 @@
 import React from "react";
+import uipathLogo from "../../Assets/UiPath.png";
 import { Col, Row } from "react-bootstrap";
 import {
   SiLinux,
@@ -11,21 +12,13 @@ import {
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
-      </Col>
+		   <Col xs={4} md={2} className="tech-icons">
+         <img
+                src={uipathLogo}
+                alt="uipath logo"
+                style={{ maxHeight: "100px" }}
+              />
+            </Col>
     </Row>
   );
 }

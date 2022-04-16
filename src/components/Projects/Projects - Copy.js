@@ -21,6 +21,15 @@ function Projects() {
           Projects coming up real soon!
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Test Project Name"
+              description="Test Project Description"
+              link="test link"
+            />
+          </Col>
 
         </Row>
       </Container>
