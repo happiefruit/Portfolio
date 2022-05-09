@@ -2,7 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import chatify from "../../Assets/Projects/chatify.png";
+import otalogo from "../../Assets/Projects/ota-commission-check.jpg";
+import comsetlogo from "../../Assets/Projects/competitorset.png";
+import ccreconlogo from "../../Assets/Projects/creditcardreconciliation.png";
 import uipathlogo from "../../Assets/UiPath.png";
 
 
@@ -21,40 +23,20 @@ function Projects() {
 		
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={uipathlogo}
+              imgPath={otalogo}
               isBlog={false}
-              title="Booking.com Commission Checker"
-              description="Automation project that helps Guest Services check if Booking.com is charging the correct commission to the properties."
+              title="Overseas Travel Agent Commission Checker"
+              description="Automation robot checks if travel agent(s) were charging the correct commission to the properties."
               link=""
             />
           </Col>
 		  
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={uipathlogo}
+              imgPath={comsetlogo}
               isBlog={false}
-              title="Expedia Commission Checker"
-              description="Automation project that helps Guest Services check if Expedia is charging the correct commission to the properties."
-              link=""
-            />
-          </Col>	
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={uipathlogo}
-              isBlog={false}
-              title="Onyx Commission Checker"
-              description="Automation project that helps Guest Services check if Onyx is charging the correct commission to the properties."
-              link=""
-            />
-          </Col>	
-		  
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={uipathlogo}
-              isBlog={false}
-              title="Competitor Set Analysis Extractor"
-              description="Automation project that helps business development team extracts statuses and reviews of competitors in public travel agent sites."
+              title="Hotel Reviews and Statuses Extractor"
+              description="Automation robot extracts details from well-known travel agent sites."
               link=""
             />
           </Col>
@@ -65,11 +47,20 @@ function Projects() {
               imgPath={uipathlogo}
               isBlog={false}
               title="Reservation Maker"
-              description="Automation project that helps Sales and Marketing Team create reservations in reservation management system."
+              description="Automation robot creates confirmed reservations in internal reservation management system."
               link=""
             />
           </Col>
 		  
+		  <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ccreconlogo}
+              isBlog={false}
+              title="Credit Card Reconciliation"
+              description="Automation robot compares bank amounts against payment gateway transactions."
+              link=""
+            />
+          </Col>
 		 </Row>
 		  
       </Container>

@@ -17,16 +17,16 @@ function AboutCard() {
           </p>
           <ol>
             <li className="about-activity">
-              <ImPointRight /> Completing Steam Games achievements
+              <ImPointRight /> Completing Game Achievements
             </li>
             <li className="about-activity">
-              <ImPointRight /> Basketball
+              <ImPointRight /> Shooting hoops and attempting dunks
             </li>
             <li className="about-activity">
-              <ImPointRight /> Rock-climbing
+              <ImPointRight /> Holding small rocks on walls
             </li>
             <li className="about-activity">
-              <ImPointRight /> Animal Voluntary Work
+              <ImPointRight /> Helping stray dogs
             </li>
           </ol>
 
