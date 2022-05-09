@@ -31,7 +31,7 @@ function AboutCard() {
           </ol>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "My brain's working hard so that I could afford to be lazy."{" "}
+            "There are always things to automate. It's just that we were to lazy to look into it."{" "}
           </p>
           <footer className="blockquote-footer">Michael</footer>
         </blockquote>
